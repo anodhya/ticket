@@ -1,0 +1,177 @@
+.Kosgoda-body{    
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 160vh;
+    width: 100%;
+
+}
+.Kosgoda-header ul{
+    float: right;
+    list-style-type: none;
+    margin: 28px;
+}
+.Kosgoda-header ul li{ 
+    display: inline-block;
+}
+.Kosgoda-header ul li a{
+    color: white;
+    background-color: black;   
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.Kosgoda-header a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+
+.kosgoda-h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+}
+.Kosgoda-container{
+    position: relative;
+    width: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+}
+.Kosgoda-container .Kosgoda-card{
+    width: 360px;
+    position: relative;
+    height: 680px;
+    background-color: white;
+    margin: 30px 20px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #4e4a4a;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+    margin-bottom: 40px;
+}
+.Kosgoda-container .Kosgoda-card p{
+  line-height: 1.4;
+}
+
+.Kosgoda-container .Kosgoda-card .Kosgoda-img{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0.5px 20px rgba(0,0,0,1.2);
+
+}
+.Kosgoda-container .Kosgoda-card .Kosgoda-img img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.Kosgoda-img:hover img{
+    transform: scale(1.1);
+}
+.Kosgoda-hr2{
+    width: 90%;
+    }
+ .Kosgoda-footercontainer{
+        width: 100%;
+        padding: 70px 35px 20px;
+        background-color: black;
+    }
+    .Kosgoda-Icons{
+        display: flex; 
+        justify-content: center;
+        background-color: black;
+    }
+    .Kosgoda-Icons i{  
+        text-decoration: none;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    .Kosgoda-Icons a i{
+        font-size: 2em;
+        color: white;
+        opacity: 0.9;
+    }
+    .Kosgoda-Icons a:hover{
+        background-color: white;
+        transition: 0.5s;
+    }
+    .Kosgoda-Icons a:hover i{
+        color: white;
+        transition: 0.5s;
+    }
+    .Kosgoda-footerNav{
+        margin: 30px;
+        margin-left: 30%;
+    }
+    .Kosgoda-footerNav ul{
+      display: flex;
+      text-align: center;
+      margin-right: 30%;
+    }
+    .Kosgoda-footerNav ul li a{
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: o.5s;
+    padding: 10px;
+    border-radius: 12px;
+    }
+    .Kosgoda-footerNav ul li{
+        display: block;
+    }
+    .Kosgoda-footerNav ul li a:hover{
+        background-color: white;
+    color: black;
+    }
+
+
+
+
+
+
+    @media screen and (max-width: 600px){
+        .Kosgoda-body{    
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(images/background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 400vh;
+            width: 100%;
+        
+        }
+
+        .Kosgoda-footerNav{
+            margin: 10px;
+            margin-left: 0%;
+        }
+        .Kosgoda-footerNav ul{
+          display: flex;
+          text-align: center;
+          margin-right: 10%;
+        }
+    
+
+
+        
+
+}

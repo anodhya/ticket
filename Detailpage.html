@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="TicketsStyle.css">
+    <link rel="stylesheet" href="Ticketpage.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/2e6b0c2321.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
+<body>
+    <div class="container1">
+    <nav>
+        <h1><a>Details</a></h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Ticketpage.html">Buy Tickets</a></li>
+            <li><a href="Payment.html">Payments</a></li>
+            <li><a href="Confirmation.html">Confirmation</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+<div id="D-Container2">
+    <div id="D-Maincard1">
+        <h2 id="D-h2">Enter your details</h2>
+<div class="D-hero">
+<form onsubmit="return validateForm()" action="Payment.html">
+<div class="D-input-group">
+  <input type="text" id="D-name"  required>
+  <label for="D-name"><i class="fa-regular fa-user"></i>Full Name</label>
+</div>
+
+
+<div class="select-box">
+    <div class="selected-option">
+        <div>
+            <span class="iconify" data-icon="flagpack:lk"></span>
+            <strong><i class="fa fa-sort-desc" aria-hidden="true"></i></strong>
+        </div>
+        <input id="D-mobile" type="tel" name="tel" placeholder="Phone Number">
+        </div>
+        <div class="options">
+            <input type="text" class="search-box" placeholder="Search Country Name">
+            <ol>
+    <li class="option"> 
+        <div>
+            <span class="iconify" data-icon="flagpack:lk"></span>
+            <span class="country-name">Srilanka</span>
+        </div>
+        <strong>+94</strong>
+    </li>
+            </ol>
+    </div>
+    </div>
+
+
+<div class="D-input-group">
+    <input type="email" id="D-email" required>
+    <label for="email"><i class="fa-regular fa-envelope"></i>Email</label>
+ </div>
+ <div class="D-input-group">
+    <input type="email" id="confirmemail" required>
+    <label for="confirmemail"><i class="fa-regular fa-check"></i>Confirm Email</label>
+ </div>
+ <div id="Detailpagebtn">
+    <button>Continue with purchase</button>
+</div>
+</form>
+
+</div>
+</div>
+
+
+<div id="D-Maincard2">
+<div id="D-summarytabel">
+
+    <table>
+     <tr>
+      <th>Date</th>
+      <td id="D-date"></td>
+    </tr>
+    <tr>
+        <th>Time</th>
+        <td id="D-time"></td>
+    </tr>
+    <tr>
+        <th>Duration</th>
+        <td id="D-period">1 hrs ( 01 Normal : 00 Peak)</td>
+    </tr>
+    <div class="highlight">
+    <tr>
+      <th>Tickets</th>
+      <td>Charges</td>
+    </tr>
+</div>
+<div id="D-subparts">
+    <tr>
+        <th id="number1"><label id="D-SLA">0</label> Srilankan Adults:</th>
+        <td id="D-charges1"></td>
+    </tr>
+    <tr>
+        <th id="number2"><label id="D-SLC">0</label>Srilankan Child: </th>
+        <td id="D-charges2"></td>
+    </tr>
+    <tr>
+        <th id="number3"><label id="D-FA">0</label>Foriegner Adult: </th>
+        <td id="D-charges3"></td>
+    </tr>
+    <tr>
+        <th id="number4"><label id="D-FC">0</label>Foriegner Child: </th>
+        <td id="D-charges4"></td>
+    </tr>
+    <tr>
+        <th id="number5"><label id="D-I">0</label>Infaunt: </th>
+        <td id="D-charges5"></td>
+    </tr>
+</div>
+    <tr class="highlight">
+        <th>Total payabel</th>
+        <td><label  id="D-tot"></label>USD</td>
+    </tr>
+    </table>
+
+</div>
+</div>
+
+</div>
+<br>
+<br>
+</div>
+<footer>
+  <div class="footer-icons">
+    <a href="https://www.facebook.com/your-facebook-page" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="mailto:your@email.com"><i class="far fa-envelope"></i></a>
+  </div>
+  <p>&copy; 2023 Turtle hatchery-Details. All rights reserved.</p>
+  <p>Designed by anodhya
+</footer>
+<script src="Detailpage.js">
+</script>
+
+</body>
+</html>

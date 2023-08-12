@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="TicketsStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+    <div class="container1">
+<nav>
+    <h1>Buy <a>Tickets</a></h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Detailpage.html">Details</a></li>
+        <li><a href="Payment.html">Payments</a></li>
+        <li><a href="Confirmation.html">Confirmation</a></li>
+    </ul>
+</nav>
+<div id="pricingtbl">
+    <table>
+        <div class="pricing">
+      <tr>
+        <th>Foreigner Adult</th>
+        <td>Normal</td>
+        <td>10 USD</td>
+      </tr>
+      <tr class="peak">
+        <th>Foreigner Adult</th>
+        <td>Peak</td>
+        <td>13 USD</td>
+      </tr>
+      <tr>
+        <th>Foreigner Child</th>
+        <td>Normal</td>
+        <td>5 USD</td>
+      </tr>
+      <tr class="peak">
+        <th>Foreigner Child</th>
+        <td>Peak</td>
+        <td>8 USD</td>
+      </tr>
+      <tr>
+        <th>SriLankan Adult</th>
+        <td>Normal</td>
+        <td>4 USD</td>
+      </tr>
+      <tr class="peak">
+        <th>SriLankan Adult</th>
+        <td>Peak</td>
+        <td>6 USD</td>
+      </tr>
+      <tr>
+        <th>SriLankan Child</th>
+        <td>Normal</td>
+        <td>2 USD</td>
+      </tr>
+      <tr class="peak">
+        <th>SriLankan Child</th>
+        <td>Peak</td>
+        <td>3 USD</td>
+      </tr>
+      <tr>
+        <th>Infaunt (under 4years)</th>
+        <td></td>
+        <td>FREE</td>
+      </tr>
+    </div>
+    </table>
+</div>
+<br>
+<br>
+<hr style="width: 60%; margin-left: 19%;">
+
+
+
+   <div id="BT-Container2">
+     <div id="BT-Maincard1">
+          <div class="Calendar">
+        <div class="wrapper">
+            <header>
+              <p class="current-date">July 2023</p>
+              <div class="icons">
+                <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                <span id="next" class="material-symbols-rounded">chevron_right</span>
+              </div>
+            </header>
+            <div class="calendar">
+              <ul class="weeks">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+              </ul>
+              <ul class="days"></ul>
+            </div>
+          </div>
+          </div>
+
+
+
+
+
+    <div class="Guests">
+    <h2>Guests</h2><br>
+    <label id="guestlbl">Srilankan Adult</label>
+    <button id="decrease1">-</button>
+    <label id="Countlbl1">0</label>
+    <button id="increase1">+</button><br><br>
+
+    <label id="guestlbl">Srilankan Child</label>
+    <button id="decrease2">-</button>
+    <label id="Countlbl2">0</label>
+    <button id="increase2">+</button><br><br>
+
+    <label id="guestlbl">Foreigner Adult</label>
+    <button id="decrease3">-</button>
+    <label id="Countlbl3">0</label>
+    <button id="increase3">+</button><br><br>
+
+    <label id="guestlbl">Foreigner Child</label>
+    <button id="decrease4">-</button>
+    <label id="Countlbl4">0</label>
+    <button id="increase4">+</button><br><br>
+
+    <label id="guestlbl5">Infant</label>
+    <button id="decrease5">-</button>
+    <label id="Countlbl5">0</label>
+    <button id="increase5">+</button><br><br>
+     
+     </div>
+
+
+
+
+
+  <div id="BT-Duration">
+          <div class="dropdown">
+              <div class="select">
+                  <span class="selected" id="duration">Select a duration</span>
+              </div>
+              <ul id="menu">
+                  <li id="duration1">
+                         7.00am - 8.00am
+                  </li>
+                  <li id="duration2">
+                     8.00am - 9.00am
+                  </li>
+                  <li id="duration3">
+                    9.00am - 10.00am
+            </li>
+            <li id="duration4">
+              10.00am - 11.00am
+            </li>
+            <li id="duration5">
+                11.00am - 12.00pm
+        </li>
+        <li id="duration6">
+                12.00pm - 13.00pm
+        </li>
+        <li id="duration7">
+            13.00pm - 14.00pm
+    </li>
+    <li id="duration8">
+            14.00pm - 15.00pm
+    </li>
+    <li id="duration9">
+        15.00pm - 16.00pm
+</li>
+<li id="duration10">
+        16.00pm - 17.00pm
+</li>
+<li id="duration11">
+    17.0pm - 18.00pm
+</li>
+
+              </ul>
+          </div>
+          <img id="durationimg" src="images/duration.png">
+  </div>
+
+</div>
+
+
+<br>
+<br>
+
+
+<div id="BT-Maincard2">
+<div id="summarytabel">
+
+    <table>
+     <tr>
+      <th>Date</th>
+      <td id="date"></td>
+    </tr>
+    <tr>
+        <th>Time</th>
+        <td id="time">7.00am-8.00am</td>
+    </tr>
+    <tr>
+        <th>Duration</th>
+        <td id="period"><a>1 hrs</a>( <a>01 Normal</a> :<a>00 Peak</a>)</td>
+    </tr>
+    <div class="highlight">
+    <tr>
+      <th>Tickets</th>
+      <td>Charges</td>
+    </tr>
+</div>
+<div id="subparts">
+    <tr>
+        <th id="number1"><label id="SLA">0</label> :Srilankan Adult</th>
+        <td id="charges1"></td>
+    </tr>
+    <tr>
+        <th id="number2"><label id="SLC">0</label> :Srilankan Child</th>
+        <td id="charges2"></td>
+    </tr>
+    <tr>
+        <th id="number3"><label id="FA">0</label> :Foriegner Adult</th>
+        <td id="charges3"></td>
+    </tr>
+    <tr>
+        <th id="number4"><label id="FC">0</label> :Foriegner Child</th>
+        <td id="charges4"></td>
+    </tr>
+    <tr>
+        <th id="number5"><label id="I">0</label> :Infaunt</th>
+        <td id="charges5"></td>
+    </tr>
+</div>
+    <tr class="highlight">
+        <th>Total payabel</th>
+        <td><label  id="tot"></label>USD</td>
+    </tr>
+    </table>
+
+</div>
+</div>
+</div>
+<br>
+<div id="Buyticketbtn"><a href="Detailpage.html"><button>Continue with purchase</button></a></div>
+
+<br>
+<br>
+<br>
+<br>
+</div>
+<footer>
+  <div class="footer-icons">
+    <a href="https://www.facebook.com/your-facebook-page" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="mailto:your@email.com"><i class="far fa-envelope"></i></a>
+  </div>
+  <p>&copy; 2023 Turtle hatchery-Buy Tickets. All rights reserved.</p>
+  <p>Designed by anodhya
+</footer>
+    <script src="Ticketpage.js"></script>
+</body>
+</html>

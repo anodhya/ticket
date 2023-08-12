@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <link rel="stylesheet" href="TicketsStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://kit.fontawesome.com/2e6b0c2321.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container1">
+        <nav>
+            <h1><a>Payment</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Ticketpage.html">Buy Tickets</a></li>
+                <li><a href="Detailpage.html">Details</a></li>
+                <li><a href="Confirmation.html">Confirmation</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+    <div id="P-Container2">
+        <div id="P-Maincard1">
+            <h2 id="P-h2">Payment details</h2>
+    <div class="P-hero">
+    <form onsubmit="return validateForm()" action="Confirmation.html">
+    <div class="input-group">
+      <input type="number" id="cardnumber"  required>
+      <label for="cardnumber"><i class="fa-regular fa-user"></i>Card Number</label>
+    </div>
+    <div class="input-group">
+        <input type="text" id="expirenumber"  required>
+        <label for="expirenumber"><i class="fa-regular fa-phone"></i>Expiry date</label>
+      </div>
+      
+    <div class="input-group">
+        <input type="number" id="Visanumber" required>
+        <label for="Visanumber"><i class="fa-regular fa-envelope"></i>CVC/CVV</label>
+     </div>
+     <div class="input-group">
+        <input type="text" id="name" required>
+        <label for="name"><i class="fa-regular fa-check"></i>Name on card</label>
+     </div>
+     <div id="Paymentbtn"><button>Pay <a id="P-total">$0</a></button></div>
+    </form>
+    
+    </div>
+    </div>
+    
+    <div id="P-Maincard2">
+    <div id="P-summarytabel">
+    
+        <table>
+         <tr>
+          <th>Date</th>
+          <td id="P-date"></td>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <td id="P-time"></td>
+        </tr>
+        <tr>
+            <th>Duration</th>
+            <td id="P-period">1 hrs ( 01 Normal : 00 Peak)</td>
+        </tr>
+        <div class="highlight">
+        <tr>
+          <th>Tickets</th>
+          <td>Charges</td>
+        </tr>
+    </div>
+    <div id="P-subparts">
+        <tr>
+            <th id="number1"><label id="P-SLA">0</label>Srilankan Adults:</th>
+            <td id="P-charges1"></td>
+        </tr>
+        <tr>
+            <th id="number2"><label id="P-SLC">0</label>Srilankan Child: </th>
+            <td id="P-charges2"></td>
+        </tr>
+        <tr>
+            <th id="number3"><label id="P-FA">0</label>Foriegner Adult: </th>
+            <td id="P-charges3"></td>
+        </tr>
+        <tr>
+            <th id="number4"><label id="P-FC">0</label>Foriegner Child: </th>
+            <td id="P-charges4"></td>
+        </tr>
+        <tr>
+            <th id="number5"><label id="P-I">0</label>Infaunt: </th>
+            <td id="P-charges5"></td>
+        </tr>
+    </div>
+        <tr class="highlight">
+            <th>Total payabel</th>
+            <td><label  id="P-tot"></label>USD</td>
+        </tr>
+        </table>
+    
+    </div>
+    </div>
+    
+    </div>
+    <br>
+    <br>
+
+
+
+
+
+        </div>
+        <footer>
+            <div class="footer-icons">
+              <a href="https://www.facebook.com/your-facebook-page" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="mailto:your@email.com"><i class="far fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2023 Turtle hatchery-Buy Tickets. All rights reserved.</p>
+            <p>Designed by anodhya
+          </footer>
+              <script src="Payment.js"></script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+.Bentota-body{
+    background-color: rgb(196, 90, 90)  /*#00203fff*/
+}
+
+    .Bentota-header ul{
+        float: right;
+        list-style-type: none;
+        margin: 28px;
+    }
+    .Bentota-header ul li{ 
+        display: inline-block;
+    }
+    .Bentota-header ul li a{
+        color: white;
+        background-color: rgb(24, 24, 24);   
+        text-decoration: none;
+        padding: 7px 22px;
+        border-radius: 8px;
+    }
+    .Bentota-header a:hover{
+        background-color: rgb(196, 90, 90);
+        color: black;
+        border-radius: 8px;
+    }
+    
+    .Bentota-h1{
+        background-color: rgb(33, 33, 33);
+        color: white;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 45px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+    }
+    .Bentota-slider{
+        position: relative;
+        width: 50%;
+        overflow: hidden;
+        margin-left: 350px;
+        margin-top: 100px;
+        background-color: rgb(24, 24, 24);
+    }
+    .Bentota-images{
+        display: flex;
+        width: 100%;
+       
+    }
+    .Bentota-images img{
+        height: 500px;
+        width: 100%;
+        transition: all 0.15s ease;
+    }
+    .Bentota-images input{
+        display: none;
+    }
+    .Bentota-dots {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    .Bentota-dots label{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: solid rgb(196, 90, 90) 3px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        margin: 5px;
+    }
+    .Bentota-dots label:hover{
+        background-color: rgb(196, 90, 90);}
+
+    #img1:checked ~ .m1{
+        margin-left: 0;
+    }
+    #img2:checked ~ .m2{
+        margin-left: -100%;
+    }
+    #img3:checked ~ .m3{
+        margin-left: -200%;
+    }
+    #img4:checked ~ .m4{
+        margin-left: -300%;
+    }
+   
+    .Bentota-hr2{
+        width: 90%;
+        }
+     .Bentota-footercontainer{
+            width: 100%;
+            padding: 70px 35px 20px;
+            background-color: rgb(33, 33, 33);
+        }
+        .Bentota-Icons{
+            display: flex; 
+            justify-content: center;
+            background-color: rgb(33, 33, 33);
+        }
+        .Bentota-Icons i{  
+            text-decoration: none;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .Bentota-Icons a i{
+            font-size: 2em;
+            color: white;
+            opacity: 0.9;
+        }
+        .Bentota-Icons a:hover{
+            background-color: white;
+            transition: 0.5s;
+        }
+        .Bentota-Icons a:hover i{
+            color: white;
+            transition: 0.5s;
+        }
+        .Bentota-footerNav{
+            margin: 30px;
+            margin-left: 30%;
+        }
+        .Bentota-footerNav ul{
+          display: flex;
+          text-align: center;
+          margin-right: 30%;
+        }
+        .Bentota-footerNav ul li a{
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        font-size: 1.3em;
+        opacity: 0.7;
+        transition: o.5s;
+        padding: 10px;
+        border-radius: 12px;
+        }
+        .Bentota-footerNav ul li{
+            display: block;
+        }
+        .Bentota-footerNav ul li a:hover{
+            background-color: white;
+        color: black;
+        }
+        .Bentota-about{
+            background-color: rgb(213, 204, 204);
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 40px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 10px rgb(76,77,78);
+            padding: 10px;
+        }
+        .Bentota-about h2{
+            font-size: 34px;
+            margin-top: 50px;
+            margin-left: 30px;
+            margin-right: 600px;
+            padding: 20px 10px 10px 20px;
+            border-radius: 12px;
+        }
+       .Bentota-about p{
+         background-color: rgb(213, 204, 204);
+         padding: 20px;
+         margin-left: 120px;
+         margin-right: 120px;
+         font-size: 20px;
+         line-height: 1.5;
+         margin-bottom: 30px;
+         padding-bottom: 40px;
+       }
+       .Bentota-about iframe{
+        width: 80%;
+        height: 500px;
+        margin-left: 100px;
+        margin-bottom: 70px;
+    }
+
+
+
+
+    @media screen and (max-width: 600px){
+
+
+        .Bentota-body{
+            background-color: rgb(70, 233, 160);  /*#00203fff*/
+        }
+        
+            .Bentota-header ul{
+                float: right;
+                list-style-type: none;
+                margin: 28px;
+            }
+            .Bentota-header ul li{ 
+                display: inline-block;
+            }
+            .Bentota-header ul li a{
+                color: white;
+                background-color: rgb(24, 24, 24);   
+                text-decoration: none;
+                padding: 7px 22px;
+                border-radius: 8px;
+            }
+            .Bentota-header a:hover{
+                background-color: rgb(70, 233, 160);
+                color: black;
+                border-radius: 8px;
+            }
+            
+            .Bentota-h1{
+                background-color: rgb(33, 33, 33);
+                color: white;
+                text-align: center;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 45px;
+                margin-top: 0;
+                margin-bottom: 25px;
+                margin-left: 0;
+                margin-right: 0;
+                padding: 20px;
+            }
+            .Bentota-slider{
+                position: relative;
+                width: 70%;
+                overflow: hidden;
+                margin-left: 80px;
+                margin-top: 100px;
+                background-color: rgb(24, 24, 24);
+            }
+            .Bentota-images{
+                display: flex;
+                width: 100%;
+               
+            }
+            .Bentota-images img{
+                height: 350px;
+                width: 100%;
+                transition: all 0.15s ease;
+           
+    }
+    .Bentota-about h2{
+        font-size: 34px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 90px;
+        padding: 7px 6px 6px 5px;
+        border-radius: 12px;
+    }
+   .Bentota-about p{
+     background-color: rgb(213, 204, 204);
+     padding: 10px 20px 10px 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     font-size: 20px;
+     line-height: 1.5;
+     margin-bottom: 30px;
+   }
+   .Bentota-about iframe{
+    width: 80%;
+    height: 500px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.Bentota-footerNav{
+    margin: 10px;
+    margin-left: 0%;
+}
+.Bentota-footerNav ul{
+  display: flex;
+  text-align: center;
+  margin-right: 4%;
+}  
+
+}
